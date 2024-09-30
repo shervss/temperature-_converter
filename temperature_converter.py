@@ -6,4 +6,6 @@
 temperature = float(input("Enter the temperature: "))
 
 # Ask the user for the conversion type
+conversion_type = input("Convert to (C)elsius or (F)ahrenheit? ").strip().upper()
+
 # Perform the appropriate conversion
